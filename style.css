@@ -22,7 +22,7 @@ font-weight: 700;
     color: #272727;
     text-align: center;
     font-size: 40px;
-    font-weight: 800;
+    font-weight: 600;
 
 }
 
@@ -95,6 +95,7 @@ header {
 .hot-deal-des {
 
     padding: 20px 0px;
+    color: rgba(39, 39, 39, 0.60);
 }
 
 
@@ -106,6 +107,7 @@ header {
     width: 500px;
     margin: auto;
     padding: 20px;
+    color: rgba(39, 39, 39, 0.60);
 }
 
 .instagram-box-content {
@@ -146,6 +148,7 @@ header {
 
 .latest-des {
     padding-bottom: 30px;
+    color: rgba(39, 39, 39, 0.60);
 }
 
 .latest-deal input[type="email"] {
@@ -313,4 +316,9 @@ footer {
     padding: 20px;
     width: 500px;
     margin: auto;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.copy{
+    color: rgba(255, 255, 255, 0.40);
 }

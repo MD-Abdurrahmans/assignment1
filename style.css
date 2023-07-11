@@ -1,0 +1,316 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* share style */
+/* font */
+
+.btn-primary {
+    background-color: rgb(255, 101, 127);
+    border-radius: 8px;
+    color: white;
+    padding: 15px 30px;
+    border: 0;
+
+color: #FFF;
+font-size: 20px;
+font-weight: 700;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+section {
+
+    margin: 100px 200px;
+}
+
+span {
+    color: rgb(255, 0, 170);
+}
+
+/* header syle */
+header {
+
+    background-color: antiquewhite;
+    padding: 50px 200px 0px 200px;
+
+}
+
+.banner-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+
+.banner-text {
+   max-width: 500px;
+    margin-bottom: 40px;
+
+}
+
+.banner-title {
+
+    font-size: 60px;
+    color: #272727;
+
+   
+}
+
+.banner-des {
+    padding: 20px 0px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.banner-image{
+    margin-bottom: -5px;
+}
+
+/* hot deal section */
+.hot-deal-container {
+    background-color: antiquewhite;
+
+
+
+}
+
+.hot-deal-content {
+    padding: 30px 0px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
+
+.hot-deal-des {
+
+    padding: 20px 0px;
+}
+
+
+/* instagram style  */
+
+
+.instagram-des {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+}
+
+.instagram-box-content {
+    justify-content: space-between;
+    display: flex;
+    gap: 20px;
+}
+
+.instagram-box {
+
+    max-width: 400px;
+    height: 150px;
+
+}
+
+.instagram-box img {
+    width: 100%;
+}
+
+
+
+/* latest deal */
+
+.latest-deal-container {
+    background-image: url("./Flower/Rectangle\ 9.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    text-align: center;
+    height: 300px;
+
+    margin-top: 200px;
+}
+
+.latest-des {
+    padding-bottom: 30px;
+}
+
+.latest-deal input[type="email"] {
+
+    padding: 20px 250px 20px 10px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* our future flower style */
+.future-flower-container {
+    text-align: center;
+
+}
+
+.flower-content {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.future-flower-des {
+    width: 400px;
+    margin: auto;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 400;
+    padding: 20px 0px;
+}
+
+.flower-text {
+    color: #272727;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    padding-top: 10px;
+}
+
+
+.future-flower {
+    width: 450px;
+    height: 400px;
+
+    text-align: center;
+
+}
+
+.flower-1 {
+    border-radius: 300px 300px 0px 0px;
+    background-color: rgba(167, 33, 98, 0.15);
+}
+
+.flower-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.future-flower img {
+    width: 250px;
+    height: 350px;
+    padding-top: 50px;
+
+}
+
+
+
+/* upcomming flower style */
+.upcomming-flower-container {
+
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upcomming-flower-text {
+
+    width: 500px;
+}
+
+.upcomming-flower-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.upcomming-flower-des {
+    padding: 20px 0px;
+    color: rgba(39, 39, 39, 0.60);
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.upcomming-flower {
+    width: 200px;
+    height: 250px;
+    margin-bottom: 40px;
+}
+
+.upcomming-flower img {
+    width: 100%;
+
+}
+
+.upcomming-flower-image {
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+}
+
+.upcomming-flower-text {
+
+    text-align: left;
+}
+
+/* funicon */
+
+.funicon-container{
+
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 50px 100px;
+}
+
+.fun-box p{
+
+    color: rgba(39, 39, 39, 0.80);
+text-align: center;
+
+font-weight: 600;
+
+}
+
+
+
+
+/* footer syle */
+
+footer {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    padding: 100px 200px;
+    text-align: center;
+    background-color: rgb(138, 8, 53);
+    color: white;
+}
+
+.footer-des {
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
